@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    width: 100%;
+    
+  }
+  
+  .header {
+    flex-wrap: wrap;
+    margin: 0;
+    .upper{
+        background-color: #C3FF93;
+            h1{
+                font-family: Arial, Helvetica, sans-serif;
+                text-align: center;
+                padding: 20px;
+                color: black;
+            }
+    }
+    .lower{
+        background-color: #f0f0f0;
+        margin: 0 0 20px 0;
+        padding: 0;
+        height: 20px;
+
+        ul{
+            margin-left: 40vw;
+            li{
+                display: inline;
+                padding-left: 30px;
+                a{
+                font-family: Arial, Helvetica, sans-serif;    
+                text-decoration: none;
+                color: black;
+                font-size: 15px;
+                transition: .5s ease-out;
+                }
+            a:hover{
+                background-color: #FFDB5C;
+                // margin: 20px;
+                padding: 0 20px;
+                // transform: scale(1.02) translateY(-1px); 
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+            }
+            }
+        }
+        button{
+            background-color: #FFDB5C;
+            font-size: 15px;
+            display:inline;
+            width: 100px;
+            position: relative;
+            left: 60rem;
+            bottom: 1rem;
+            transition: 1s ease-in-out;
+            flex-wrap: wrap;
+        }
+        button:hover{
+            background-color: #C3FF93;
+        }
+    }
+  }
+.card-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+        .card{
+            width: 325px;
+            background-color: #f0f0f0;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+            margin: 20px; 
+        img{
+           width: 100%;
+           height: auto;
+        }
+        .card-content{
+            padding: 16px;
+            h3{
+                font-size: 28px;
+                margin-bottom: 8px;
+            }
+            p{
+                color: #666;
+                font-size: 15px;
+                line-height: 1.3;
+            }
+            .btn{
+                display: inline-block;
+                padding: 8px 16px;
+                background-color: #333;
+                text-decoration: none;
+                border-radius: 4px;
+                margin-top: 16px;
+                color: #fff;
+            }
+        }
+
+    }
+        
+}
+.owl-carousel ,.owl-theme{
+    .item{
+        h4{
+            
+            width: 100%;
+            height: 500px;
+            .normal{
+                width: 100%;
+                height: 500px;
+            }
+        }
+    }
+}
